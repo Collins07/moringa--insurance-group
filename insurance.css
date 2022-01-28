@@ -1,0 +1,18 @@
+h1{
+    font-size: 20px;
+    float: left;
+    margin-left: 200px;
+}
+ul{
+    float: right;
+    margin-top: 20px;
+    margin-right: 300px;
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+.navigation{
+    height:70px;
+    width: auto;
+}
