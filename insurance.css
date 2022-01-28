@@ -21,7 +21,8 @@ li{
     text-align: center;
     border: 1px solid blue;
     margin-top: 10px;
-    height:500px;
+    height:600px;
+    font-weight: bold;
 }
 #div1{
     font-size: 15px;
@@ -35,19 +36,60 @@ li{
     border: 1px solid blue;
     margin:0px 50px 0px 50px;
     font-size: 15px;
-    height: 40px;
+    height: 20px;
     width: 150px;
     text-align: center;
     border-radius: 20px;
     background-color: rgb(63, 204, 247);
+    padding: 10px;
+    color: white;
 }
 .small2{
     border: 1px solid blue;
     margin:0px 50px 0px 50px;
     font-size: 15px;
-    height: 40px;
+    height: 20px;
     width:150px;
     text-align: center;
     padding: 2px;
     border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+body{
+    background-color: rgb(212, 205, 176);
+}
+.gallery{
+    border: 1px solid darkblue;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    margin-top: -70px;
+}
+#gallery{
+    font-weight: bold;
+}
+#download{
+    font-size: 10px;
+}
+.download{
+    display: flex;
+    margin: 0px 300px 0px 350px;
+}
+.first{
+    border: 1px solid darkblue;
+    width: 200px;
+    background-color: rgb(48, 151, 247);
+    padding: 10px;
+    margin: 20px;
+    margin-top: -70px;
+}
+#second{
+    font-weight: bold;
+    color: white;
+}
+#third{
+    font-size: 10px;
+    color: white;
 }
