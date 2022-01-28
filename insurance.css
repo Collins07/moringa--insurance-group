@@ -16,3 +16,38 @@ li{
     height:70px;
     width: auto;
 }
+.div1{
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid blue;
+    margin-top: 10px;
+    height:500px;
+}
+#div1{
+    font-size: 15px;
+}
+.small{
+    display: inline-flex;
+    margin-top: 70px;
+    padding: 10px;
+}
+.small1{
+    border: 1px solid blue;
+    margin:0px 50px 0px 50px;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(63, 204, 247);
+}
+.small2{
+    border: 1px solid blue;
+    margin:0px 50px 0px 50px;
+    font-size: 15px;
+    height: 40px;
+    width:150px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+}
