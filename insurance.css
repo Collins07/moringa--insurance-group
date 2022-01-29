@@ -152,5 +152,36 @@ p{
 .flex-container>div{
     width: 150px;
     line-height: 200px;
-
+}
+.gradient{
+    margin: 50px 50px 0 170px;
+    padding: 20px;
+    display: inline-flex;
+    width: 75%;
+    height: 70px;
+    background-color: rgb(55, 55, 155);
+    background-image: linear-gradient(to right,rgb(56, 56, 153),rgb(179, 49, 114));
+}
+#subscribe{
+    width: 600px;
+    font-size: 30px;
+    margin-left: 40px;
+    font-weight: bold;
+    color: white;
+}
+.email{
+    width: 400px;
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: white;
+    border-radius: 5px 0px 0px 5px;
+}
+.subscribe{
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgb(40, 169, 243);
+    border-radius:0px 5px 5px 0px;
 }
