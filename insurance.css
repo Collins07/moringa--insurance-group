@@ -2,6 +2,7 @@ h1{
     font-size: 20px;
     float: left;
     margin-left: 200px;
+    color: white;
 }
 ul{
     float: right;
@@ -15,17 +16,19 @@ li{
 .navigation{
     height:70px;
     width: auto;
+    color: white;
 }
 .div1{
     font-size: 50px;
     text-align: center;
-    border: 1px solid blue;
     margin-top: 10px;
     height:600px;
     font-weight: bold;
+    color: white;
 }
 #div1{
     font-size: 15px;
+    color: white;
 }
 .small{
     display: inline-flex;
@@ -33,7 +36,6 @@ li{
     padding: 10px;
 }
 .small1{
-    border: 1px solid blue;
     margin:0px 50px 0px 50px;
     font-size: 15px;
     height: 20px;
@@ -45,7 +47,7 @@ li{
     color: white;
 }
 .small2{
-    border: 1px solid blue;
+    border:1px solid white;
     margin:0px 50px 0px 50px;
     font-size: 15px;
     height: 20px;
@@ -57,10 +59,9 @@ li{
     color: white;
 }
 body{
-    background-color: rgb(212, 205, 176);
+    background-color: wheat;
 }
 .gallery{
-    border: 1px solid darkblue;
     width: 200px;
     background-color: white;
     padding: 10px;
@@ -78,7 +79,6 @@ body{
     margin: 0px 350px 0px 350px;
 }
 .first{
-    border: 1px solid darkblue;
     width: 200px;
     background-color: rgb(48, 151, 247);
     padding: 10px;
@@ -98,7 +98,6 @@ body{
     margin: 100px 250px 0px 300px;
 }
 .image2{
-    border: 1px solid darkblue;
     width: 200px;
     background-color: white;
     padding: 40px;
@@ -112,9 +111,31 @@ body{
     font-weight: bold;
 }
 h2{
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
+    margin-top: 150px;
 }
 p{
     text-align: center;
+}
+.people1{
+    border: 1px solid rgb(92, 90, 90);
+    width: 150px;
+    background-color: white;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+}
+.people{
+    margin:100px 200px 0px 320px;
+}
+#people1{
+    font-size: 10px;
+}
+.hero{
+    background-image: url(image/hero-cover.3.png);
+    background-size: cover;
 }
