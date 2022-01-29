@@ -75,7 +75,7 @@ body{
 }
 .download{
     display: flex;
-    margin: 0px 300px 0px 350px;
+    margin: 0px 350px 0px 350px;
 }
 .first{
     border: 1px solid darkblue;
@@ -92,4 +92,29 @@ body{
 #third{
     font-size: 10px;
     color: white;
+}
+.category{
+    display: flex;
+    margin: 100px 250px 0px 300px;
+}
+.image2{
+    border: 1px solid darkblue;
+    width: 200px;
+    background-color: white;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+}
+#category{
+    font-size: 10px;
+}
+#image2{
+    font-weight: bold;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+p{
+    text-align: center;
 }
