@@ -59,7 +59,7 @@ li{
     color: white;
 }
 body{
-    background-colo: gainsboro;
+    background-color: gainsboro;
 }
 .gallery{
     width: 200px;
@@ -196,9 +196,11 @@ p{
     font-size: 13px;
 }
 .offer{
-    margin-top: 80px;
-    margin-left: 25%;
-    height:500px;
+    height:550px;
+    width: 80%;
+    margin-left:20%;
+    margin-top: 40px ;
+    
 }
 #off{
     display: block;
@@ -224,6 +226,28 @@ button{
     width:250px;
     margin-right: 20px;
 }
-#offer1{
-    color: slategrey;
+.last{
+    border:2px solid rgb(25, 39, 51);
+    height: 500px;
+    margin-left: 150px;
+    margin-right: 200px;
+    display: inline-flex;
+    width: 75%;
+    background-color: rgb(31, 31, 61);
+    padding: 10px;
+}
+#last{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top: 80px;
+    color: white;
+}
+#second{
+    padding-left: 100px;
+}
+.world{
+    margin-right: 50px;
+    padding: 25px;
 }
