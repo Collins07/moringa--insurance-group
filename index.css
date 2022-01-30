@@ -62,7 +62,9 @@ li{
     color: white;
 }
 body{
-    background-color: gai
+    background-color: white;
+    display:block;}
+    @media only screen and (min-width:280px){
 }
 .gallery{
     width: 200px;
