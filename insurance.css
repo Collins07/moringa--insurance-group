@@ -250,11 +250,12 @@ button{
     padding: 25px;
 }
 .book{
-    border: 1px solid black;
     margin-left: 350px;
     height:500px;
     width: 52%;
     display: inline-flex;
+    margin-top: -20%;
+    background-color: white;
 }
 .img2{
     border:1px solid yellow;
@@ -270,5 +271,43 @@ input[type=text], select{
     display:block;
     padding: 10px;
     margin: 10px;
-    width: 80%;
+    width: 85%;
+    box-sizing: border-box;
+}
+#click{
+    font-size: 15px;
+    margin-top: 40px;
+    width: 350px;
+    height: 40px;
+    color: white;
+    background-color: rgb(42, 153, 226);
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+h4{
+    text-align: center;
+}
+.contact{
+    border:1px solid violet;
+    margin-top: 60px;
+    height: 120px;
+    width: 57%;
+    margin-left: 21%;
+}
+.button1{
+    float: right;
+    display: inline;
+    margin-top: -70px;
+    width: 150px;
+}
+.consult{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+}
+.next{
+    text-align: justify;
+    color: rgb(92, 85, 85);
+    font-size: 15px;
 }
