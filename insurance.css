@@ -188,7 +188,6 @@ p{
 .offer1{
     border: 1px solid rgb(36, 140, 236);
     width: 250px;
-    padding: 0px;
     text-align: center;
     display: inline-block;
     height: 450px;
@@ -198,7 +197,7 @@ p{
 .offer{
     height:550px;
     width: 80%;
-    margin-left:20%;
+    margin-left:25%;
     margin-top: 40px ;
     
 }
@@ -228,13 +227,12 @@ button{
 }
 .last{
     border:2px solid rgb(25, 39, 51);
-    height: 500px;
-    margin-left: 150px;
-    margin-right: 200px;
+    height: 700px;
+    margin-left: 200px;
+    margin-right: 150px;
     display: inline-flex;
     width: 75%;
     background-color: rgb(31, 31, 61);
-    padding: 10px;
 }
 #last{
     text-align: justify;
@@ -250,4 +248,27 @@ button{
 .world{
     margin-right: 50px;
     padding: 25px;
+}
+.book{
+    border: 1px solid black;
+    margin-left: 350px;
+    height:500px;
+    width: 52%;
+    display: inline-flex;
+}
+.img2{
+    border:1px solid yellow;
+    margin-right: 400px;
+    height: 500px;
+}
+.fill{
+    border: 2px solid green;
+    margin-left: -400px;
+    width: 55%;
+}
+input[type=text], select{
+    display:block;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
 }
