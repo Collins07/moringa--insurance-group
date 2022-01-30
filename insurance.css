@@ -207,7 +207,7 @@ p{
 }
 button{
     font-size: 15px;
-    margin-top: 40px;
+    margin-top: 20px;
     width: 180px;
     height: 40px;
     color: white;
@@ -258,12 +258,10 @@ button{
     background-color: white;
 }
 .img2{
-    border:1px solid yellow;
-    margin-right: 400px;
+    margin-right: 420px;
     height: 500px;
 }
 .fill{
-    border: 2px solid green;
     margin-left: -400px;
     width: 55%;
 }
@@ -289,11 +287,10 @@ h4{
     text-align: center;
 }
 .contact{
-    border:1px solid violet;
-    margin-top: 60px;
-    height: 120px;
+    margin-top: 100px;
+    height: 100px;
     width: 57%;
-    margin-left: 21%;
+    margin-left: 25%;
 }
 .button1{
     float: right;
@@ -311,3 +308,28 @@ h4{
     color: rgb(92, 85, 85);
     font-size: 15px;
 }
+.last1{
+    height: 400px;
+    margin-top: 50px;
+    width: 65%;
+    margin-left: 22%;
+}
+.company{
+    display: inline-block;
+    width: 170px;
+    margin-top: 1px;
+}
+#la{
+    display: block;
+    font-size: 12px;
+    color: rgb(68, 67, 67);
+}
+h5{
+    text-align: center;
+}
+.super{
+    color: rgb(8, 165, 238);
+    font-size: 20px;
+    font-weight: bold;
+}
+su{}
