@@ -3,11 +3,13 @@ h1{
     float: left;
     margin-left: 200px;
     color: white;
+    /*for stylinh the header:*/
 }
 .tab{
     float: right;
     margin-top: 20px;
     margin-right: 300px;
+    /*style the unordered list as a single entity:*/
 }
 .login{
     margin-right: 10%;
@@ -15,11 +17,13 @@ h1{
 li{
     display: inline;
     padding: 10px;
+    /*inline display for the list of navigation menu:*/
 }
 .navigation{
     height:70px;
     width: auto;
     color: white;
+    /*the navigation menu, title and button styling div:*/
 }
 .div1{
     font-size: 50px;
@@ -63,8 +67,7 @@ li{
 }
 body{
     background-color: white;
-    display:block;}
-    @media only screen and (min-width:280px){
+    /* the entire body of the page with a white background:*/
 }
 .gallery{
     width: 200px;
@@ -84,6 +87,7 @@ body{
 .download{
     display: flex;
     margin: 0px 350px 0px 350px;
+    /*used display flex value to align the smaller divs and text-align their contents with justify value:*/
 }
 .first{
     width: 200px;
@@ -91,6 +95,7 @@ body{
     padding: 10px;
     margin: 20px;
     margin-top: -70px;
+    /*chnaged the third div values to its unique characteristic:*/
 }
 #second{
     font-weight: bold;
@@ -137,6 +142,7 @@ p{
     display: inline-block;
     height: 200px;
     border-radius: 10px;
+    /*resize the window to make the display values stay inline-block:*/
 }
 .people{
     margin:100px 200px 0px 320px;
@@ -148,11 +154,13 @@ p{
     background-image: url(image/hero-cover.3.png);
     background-size: cover;
     background-blend-mode: darken;
+    /*set the background image:*/
 }
 .flex-container{
     margin: 150px 50px 0 300px;
     padding: 20px;
     display: inline-flex;
+    /*use theflex property:*/
 }
 .flex-container>div{
     width: 150px;
@@ -166,6 +174,7 @@ p{
     height: 70px;
     background-color: rgb(55, 55, 155);
     background-image: linear-gradient(to right,rgb(56, 56, 153),rgb(179, 49, 114));
+    /*set the lineargradient background and modify it to suit the display:*/
 }
 #subscribe{
     width: 600px;
@@ -219,6 +228,7 @@ button{
     background-color: rgb(42, 153, 226);
     border: none;
     border-radius: 10px;
+    /*use the button tags to style them:*/
 }
 #standard{
     border: 1px solid rgb(12, 38, 73);
@@ -261,6 +271,7 @@ button{
     display: inline-flex;
     margin-top: -20%;
     background-color: white;
+    /*style the form using display property:*/
 }
 .img2{
     margin-right: 420px;
@@ -276,6 +287,7 @@ input[type=text], select{
     margin: 10px;
     width: 85%;
     box-sizing: border-box;
+    /*resize the forms and use padding property to move them in around the margins:*/
 }
 #click{
     font-size: 15px;
