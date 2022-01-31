@@ -374,3 +374,20 @@ footer{
     float: right;
     margin-right: -35%;
 }
+@media only screen and (min-width: 1210px) {
+    /*for desktop only:*/
+    .hero {width: 100%;}
+    .navigation {width: auto;}
+    .div1 {width: 100%;}
+    .gradient {width: 75%;}
+    .offer {width: 80%;}
+    .last {width: 75%;}
+    .book {width: 52%;}
+    .contact {width: 57%;}
+    .last1 {width: 65%;}
+    .foot {width: 58%;}
+    .download {margin: 0px 350px 0px 350px}
+    .category {margin: 100px 250px 0px 300px}
+    .people {margin: 150px;}
+    .flex-container {margin: 150px 50px 0px 300px}
+}
